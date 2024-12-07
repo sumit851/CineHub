@@ -1,0 +1,31 @@
+/* searchBar.scss */
+
+.search-bar {
+  /* Inherit styles from navbar.scss if necessary */
+  display: flex;
+  align-items: center;
+  input {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+    ::placeholder {
+      color: var(--placeholder-color);
+    }
+  }
+  label {
+    color: var(--text-color);
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+
+    &:hover {
+      color: var(--accent-color);
+    }
+  }
+}
