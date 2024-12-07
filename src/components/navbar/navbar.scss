@@ -1,0 +1,57 @@
+nav {
+  background-color: rgb(5, 39, 49);
+  padding: 0 20px;
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+    .left,
+    .right {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      img {
+        width: 120px;
+        height: auto;
+      }
+    }
+
+    .movies,
+    .tv-shows {
+      margin-left: 20px;
+
+      a {
+        margin: 0;
+        color: #8e4c4c;
+        cursor: pointer;
+        transition: color 0.3s;
+        text-decoration: none;
+
+        &:hover {
+          color: #f89e00;
+        }
+      }
+    }
+
+    .search {
+      margin-left: 20px;
+
+      .search-logo {
+        font-size: 1.5rem;
+        color: #fff;
+        cursor: pointer;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #f89e00;
+        }
+      }
+    }
+  }
+}
