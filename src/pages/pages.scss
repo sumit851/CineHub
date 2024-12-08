@@ -1,0 +1,28 @@
+.main-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #2d1f1f, #1a1a1a);
+  h1 {
+    text-align: center;
+    color: red;
+
+    font-weight: 500px;
+  }
+}
+
+.main-tv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1a1a1a, #2d1f1f, #1a1a1a);
+  h1 {
+    text-align: center;
+    color: red;
+    font-weight: 500px;
+  }
+}
